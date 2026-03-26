@@ -27,12 +27,12 @@ int main() {
             break;
         case '/':
             // Check for division by zero to avoid errors
-            if (num2 != 0)
+            if (num2 != 0){
                 cout << "Result: " << num1 / num2;
-                cout<<endl;
-            else
+                cout<<endl;}
+            else{
                 cout << "Error! Division by zero.";
-            break;
+            break;}
         default:
             // Handle invalid operator input
             cout << "Error! Invalid operator.";
