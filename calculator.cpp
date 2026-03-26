@@ -15,17 +15,21 @@ int main() {
     switch(op) {
         case '+':
             cout << "Result: " << num1 + num2;
+            cout<<endl;
             break;
         case '-':
             cout << "Result: " << num1 - num2;
+             cout<<endl;
             break;
         case '*':
             cout << "Result: " << num1 * num2;
+         cout<<endl;
             break;
         case '/':
             // Check for division by zero to avoid errors
             if (num2 != 0)
                 cout << "Result: " << num1 / num2;
+                cout<<endl;
             else
                 cout << "Error! Division by zero.";
             break;
